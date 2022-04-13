@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6, p{
     align-items: center;
 }
 
-.header, .nav-list{
+.nav-list{
     display: flex;
     margin-left: 93px;
 }
@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .portfolio-item-title{
     margin-bottom: 4px;
-    
+
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
