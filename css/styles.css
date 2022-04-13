@@ -320,15 +320,13 @@ h1, h2, h3, h4, h5, h6, p{
     color: var(--text-light-color);
 }
 
-.portfolio-list-item{
-    background-color: var(--background-white-color);
-    outline: 1px solid var(--border-color);
-    
+.portfolio-list-item{         
     margin-top: 30px;
     margin-left: 30px;
     width: 370px;
     height: 404px;
-    
+
+    background-color: var(--background-white-color);
 }
 
 .portfolio-list-item:hover {
@@ -337,6 +335,9 @@ h1, h2, h3, h4, h5, h6, p{
 
 .portfolio-item-content{
     padding: 20px 24px;
+    border-left: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
 }
 .portfolio-item-title{
     margin-bottom: 4px;
