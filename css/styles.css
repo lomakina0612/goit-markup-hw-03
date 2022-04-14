@@ -69,7 +69,6 @@ h1, h2, h3, h4, h5, h6, p{
 
 .nav-list{
     display: flex;
-    margin-left: 93px;
 }
 
 .logo{
@@ -79,6 +78,7 @@ h1, h2, h3, h4, h5, h6, p{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    margin-right: 93px;
 }
 
 .header-logo{
@@ -94,11 +94,8 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--nav-color);
-    
+    color: var(--nav-color);    
 }
-
-
 
 .header-contacts{
     display: flex;
@@ -158,15 +155,6 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 94px 0 0;
 }
 
-.features-list{
-    display: flex;
-    
-}
-
-.features-list-item:not(:last-child){
-    margin-right: 30px;
-    max-width: 270px;
-}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -178,6 +166,18 @@ h1, h2, h3, h4, h5, h6, p{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.features-list{
+    display: flex;    
+}
+
+.features-list-item{
+    width: 270px;
+}
+
+.features-list-item:not(:last-child){
+    margin-right: 30px;    
 }
 
 .features-list-title {
@@ -233,8 +233,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .team-list-item{
     width: 270px;
-    padding-bottom: 30px;
-
+    
     background-color: var(--background-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -246,8 +245,10 @@ h1, h2, h3, h4, h5, h6, p{
     margin-left: 30px;
 }
 
-.team-list-title{
-    margin-top: 30px;
+.team-list-content{
+    padding: 30px 0;
+}
+.team-list-title{    
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -288,10 +289,9 @@ h1, h2, h3, h4, h5, h6, p{
 /* --------------------------PORTFOLIO--------------------------- */
 
 .portfolio-list-btn{
-    display: flex;
-    max-width: 611px;
-    margin: 0 auto 50px;
-    justify-content: space-between;
+    display: flex;    
+    margin-bottom: 50px;
+    justify-content: center;
 }
 .portfolio-btn{
     padding: 6px 22px;
@@ -303,6 +303,10 @@ h1, h2, h3, h4, h5, h6, p{
     letter-spacing: 0.03em;
     background-color: var(--background-light-color);
     color: var(--title-color);
+}
+
+.portfolio-list-btn>li:not(:last-child){
+    margin-right: 8px;
 }
 
 .portfolio-list{
